@@ -179,6 +179,7 @@ zustand/
 // Selector hooks (optimized)
 useCurrentUser();
 useProducts();
+useFilteredProducts(); // Products filtered by current filters and sort
 useCart();
 useCartTotal();
 useNotifications();
@@ -296,7 +297,7 @@ Full TypeScript coverage with:
 
 **Bundle Size:**
 
-- JavaScript: 235 KB (74 KB gzipped)
+- JavaScript: 237 KB (75 KB gzipped)
 - CSS: 12.8 KB (2.9 KB gzipped)
 
 ## 🔒 Security
